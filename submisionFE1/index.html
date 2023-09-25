@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tambahkan Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <!-- Tambahkan CSS kustom -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Website Saya</title>
+    <style>
+      /* Efek Hover untuk Nav Ul */
+      .nav-item:hover {
+        background-color: #176b87;
+      }
+      .nav-item:hover a {
+        color: #fff;
+      }
+      ul {
+        list-style: disc;
+        margin-left: 20px;
+        padding-left: 20px;
+      }
+      aside {
+        background: linear-gradient(to top, #053b50, transparent);
+        color: #eee;
+        padding: 20px;
+        width: 25%;
+      }
+      .container1 {
+        background-image: url("bg1.jpg"); /* Ganti 'gambar-luar.jpg' dengan URL gambar yang sesuai */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Untuk menjaga gambar tetap di latar belakang saat menggulir halaman */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background-color: #053b50; color: #eee; padding: 10px 0">
+      <div class="container py-3">
+        <div>
+          <h1 class="py-2" style="background-color: #176b87; margin: 0; padding: 10px 0; text-align: center">PORTOFOLIO</h1>
+        </div>
+        <ul class="nav" id="menuNav">
+          <li class="nav-item"><a class="nav-link text-white" href="#beranda" id="berandaLink">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#tentang" id="tentangLink">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#kontak" id="kontakLink">Kontak</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="container1">
+      <article id="beranda">
+        <h2 class="text-primary">Profil Singkat</h2>
+        <p style="text-align: justify; margin-top: 20px">
+          <strong><span style="color: #176b87">Muhammad Alif Fessor Adnan Mendre</span></strong> adalah seorang mahasiswa semester 8 Program Studi Teknik Informatika dengan minat karir di bidang perangkat lunak (software). Dia memiliki
+          keahlian yang baik dalam pemrograman, dengan pengalaman 1 tahun di bidang front-end menggunakan bahasa seperti JavaScript, React, Flutter, dan Dart. Selain itu, ia memiliki pengalaman magang selama 10 bulan di bidang pengembangan
+          perangkat lunak (web dan mobile) dan memiliki kemampuan dalam design thinking, manajemen proyek, serta kemampuan bekerja dalam tim yang kuat. Alif siap untuk berkontribusi dalam proyek yang menantang dan senang belajar hal-hal
+          baru, termasuk kemungkinan memperoleh keterampilan baru yang dibutuhkan.
+        </p>
+      </article>
+
+      <article id="tentang">
+        <h2 class="text-primary">Pengalaman Kerja</h2>
+
+        <div style="margin-top: 20px">
+          <strong>PT Kinema Systrans Multimedia - Batam (Feb 2023 - Jun 2023)</strong>
+          <p>Magang - Program Studi Independent Kampus Merdeka (Pengembangan Web)</p>
+          <ul>
+            <li>Membuat solusi digital dari 3 ide besar permasalahan untuk 3 proyek dengan pendekatan Design Thinking.</li>
+            <li><strong>Berkolaborasi dalam tim</strong> untuk memberikan solusi permasalahan dari proyek "Micro Challenge" dan mengimplementasikan ide tersebut dalam desain produk website.</li>
+            <li>Menyelesaikan proyek "Macro Challenge" dengan mengkonversi desain Figma menjadi antarmuka pengguna (UI) front-end menggunakan HTML, CSS, Bootstrap, dan JavaScript.</li>
+            <li><strong>Berkolaborasi dengan tim pengembang mobile</strong> dalam proyek "Massive Challenges" menggunakan metodologi SDLC Agile.</li>
+          </ul>
+        </div>
+
+        <div style="margin-top: 20px">
+          <strong>Dicoding - Bandung (Aug 2022 - Dec 2022)</strong>
+          <p>Mentee - Program Studi Independent Kampus Merdeka (Multiplatform and Back-end)</p>
+          <ul>
+            <li>Memperoleh sertifikasi dalam pengembangan perangkat lunak mobile dan back-end dengan membuat beberapa proyek, termasuk aplikasi restoran dan aplikasi film.</li>
+            <li>Mempelajari dan memperoleh sertifikasi UI/UX dengan menggunakan perangkat Figma untuk membuat prototipe.</li>
+            <li>Mempelajari pengembangan perangkat lunak secara menyeluruh dan mendapatkan bimbingan tentang softskill dan keterampilan profesional.</li>
+          </ul>
+        </div>
+
+        <h2 class="text-primary" style="margin-top: 20px">Pendidikan</h2>
+        <p>Universitas Nusa Mandiri - Jakarta (Feb 2019 - Nov 2023) - Sarjana Sains (Informatika) dengan IPK <strong>3.74/4.00</strong></p>
+
+        <h2 class="text-primary" style="margin-top: 20px">Pengalaman Organisasi</h2>
+        <p><strong>Baznas Bazis - Jakarta (Jan 2020 - Dec 2022)</strong></p>
+        <p>Peserta</p>
+        <ul>
+          <li>Terlibat dalam kegiatan sosial membantu pengungsi banjir selama banjir besar di Jakarta pada tahun 2020.</li>
+          <li>Membuat konten edukasi mengenai zakat amal melalui media Instagram.</li>
+          <li>Aktif dalam kegiatan keagamaan dan sosial di lingkungan tempat tinggalnya.</li>
+        </ul>
+
+        <h2 class="text-primary" style="margin-top: 20px">Keterampilan, Prestasi, dan Pengalaman Lainnya</h2>
+        <p>
+          <strong>Hard Skills:</strong> Flutter, JavaScript (OOP, SOLID PRINCIPLE), UI/UX (Prototype, Figma, Mockup, Wireframe, Low fi, UX Research), Reactjs, Dart, Nodejs, Express, Python untuk data science, R (bahasa pemrograman), Vitejs,
+          Nextjs, TypeScript, Laravel, MySQL, Firebase (Firestore, Auth, Storage, Crashlytics, Analytics), HTML, CSS, Tailwind-CSS, Bootstrap, Agile Scrum.
+        </p>
+        <p>
+          <strong>Soft Skills:</strong> Growth Mindset, Personal Productivity, Profesional Ethics, Critical Thinking, Time Management, Design Thinking, Komunikasi yang baik, Kemampuan Beradaptasi, Kerja Tim, Kemampuan Analisis, dan
+          Kemampuan Memecahkan Masalah.
+        </p>
+        <p><strong>Proyek 2023:</strong> Website Platform (Macro Challenge, Massive Challenge), Desain Prototipe Web (Micro Challenge).</p>
+        <p><strong>Prestasi 2023:</strong> Kelompok dan produk digital terbaik, Massive Challenge Infinite Learning.</p>
+      </article>
+
+      <article id="kontak">
+        <h2 class="text-primary">Kontak</h2>
+
+        <table style="border: none">
+          <tr>
+            <td><strong>Nomor Telepon:</strong></td>
+            <td>085782839231</td>
+          </tr>
+          <tr>
+            <td><strong>Email:</strong></td>
+            <td>aliffrssor@gmail.com</td>
+          </tr>
+          <tr>
+            <td><strong>LinkedIn:</strong></td>
+            <td><a href="https://www.linkedin.com/in/muhammad-alif-fessor-adnan-mendre-alif-6358a3222/" target="_blank">Profil LinkedIn</a></td>
+          </tr>
+          <tr>
+            <td><strong>GitHub:</strong></td>
+            <td><a href="https://github.com/AliFMDR" target="_blank">Profil GitHub</a></td>
+          </tr>
+        </table>
+
+        <p><strong>Alamat:</strong> Klender, Jakarta Timur</p>
+      </article>
+
+      <aside id="biodata">
+        <h2 class="text-primary">Biodata</h2>
+        <img src="fotosaya.jpeg" alt="Foto Anda" width="200" height="300" />
+        <p><strong>Nama:</strong> Muhammad Alif Fessor Adnan Mendre</p>
+        <p><strong>Umur:</strong> 23</p>
+        <p><strong>Alamat:</strong> Klender, Jakarta Timur</p>
+        <!-- Informasi kontak yang sama seperti sebelumnya -->
+      </aside>
+    </main>
+
+    <footer style="background-color: #176b87; color: #eee">
+      <div class="container py-3">
+        <p>&copy; 2023 Copy Right</p>
+      </div>
+    </footer>
+
+    <!-- Tambahkan Bootstrap JS (Opsional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      // Fungsi untuk menampilkan artikel berdasarkan ID
+      function tampilkanArtikel(id) {
+        // Sembunyikan semua artikel
+        const semuaArtikel = document.querySelectorAll("article");
+        semuaArtikel.forEach((artikel) => (artikel.style.display = "none"));
+
+        // Tampilkan artikel yang sesuai dengan ID yang diklik
+        const artikelYangDitampilkan = document.getElementById(id);
+        artikelYangDitampilkan.style.display = "block";
+      }
+
+      // Tambahkan event listener untuk tautan-tautan
+      document.getElementById("berandaLink").addEventListener("click", function (event) {
+        event.preventDefault();
+        tampilkanArtikel("beranda");
+      });
+
+      document.getElementById("tentangLink").addEventListener("click", function (event) {
+        event.preventDefault();
+        tampilkanArtikel("tentang");
+      });
+
+      document.getElementById("kontakLink").addEventListener("click", function (event) {
+        event.preventDefault();
+        tampilkanArtikel("kontak");
+      });
+
+      // Inisialisasi tampilkan artikel pertama saat halaman dimuat
+      tampilkanArtikel("beranda");
+    </script>
+  </body>
+</html>
